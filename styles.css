@@ -1,0 +1,33 @@
+body {
+	background-color: rgb(247, 205, 70);
+	color: rgb(169, 48, 59);
+}
+
+div {
+	width: fit-content;
+	margin: 75px auto;
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.item-list {
+	list-style: none;
+}
+
+li {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.favorite-icon {
+	all: unset;
+	height: 1.5rem;
+	margin-right: 20px;
+}
+
+.filled {
+	transform: scale(1.5);
+}
